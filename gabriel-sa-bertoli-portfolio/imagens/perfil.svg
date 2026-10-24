@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 920" role="img" aria-labelledby="title desc">
+  <title id="title">Avatar visual GSB</title>
+  <desc id="desc">Placeholder gráfico em preto, branco e vermelho para a foto de perfil de Gabriel Sá Bertoli.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#180000"/><stop offset=".55" stop-color="#000000"/><stop offset="1" stop-color="#8b0000"/></linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffafa" stop-opacity=".86"/><stop offset="1" stop-color="#8b0000" stop-opacity=".72"/></linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+    <pattern id="scan" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 1h12" stroke="#fffafa" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="720" height="920" fill="url(#bg)"/>
+  <circle cx="570" cy="180" r="210" fill="#8b0000" opacity=".32" filter="url(#glow)"/>
+  <path d="M88 920c28-204 119-300 272-300s244 96 272 300" fill="url(#shirt)" opacity=".95"/>
+  <path d="M270 565c15 24 47 42 90 42 42 0 75-18 90-42l-14-108H284Z" fill="#8b0000"/>
+  <ellipse cx="360" cy="362" rx="160" ry="204" fill="#fffafa" opacity=".93"/>
+  <path d="M205 347c-6-147 62-238 170-238 109 0 166 75 157 232-36-49-87-84-151-84-64 0-123 29-176 90Z" fill="#000"/>
+  <path d="M229 316c11 154 66 252 131 252 74 0 131-98 132-255-37 45-77 66-132 66-56 0-96-21-131-63Z" fill="#fffafa" opacity=".18"/>
+  <path d="M296 379c18 12 37 18 64 18 27 0 47-6 64-18" fill="none" stroke="#8b0000" stroke-width="9"/>
+  <path d="M278 332h55M387 332h55" stroke="#000" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="315" cy="338" r="7" fill="#8b0000"/><circle cx="405" cy="338" r="7" fill="#8b0000"/>
+  <path d="M355 354c-7 22-10 43-4 58 5 8 17 11 29 4" fill="none" stroke="#000" stroke-opacity=".45" stroke-width="6"/>
+  <path d="M130 120h120M130 120v120M590 800H470M590 800V680" stroke="#fffafa" stroke-opacity=".5" stroke-width="2"/>
+  <rect width="720" height="920" fill="url(#scan)"/>
+  <text x="36" y="870" font-family="monospace" font-size="18" letter-spacing="4" fill="#fffafa" opacity=".65">GSB / IDENTITY VISUAL</text>
+</svg>
